@@ -1,0 +1,29 @@
+/* Hover and transitions */
+nav .logo:hover {
+  color: #007bff;
+}
+
+nav ul li a.nav-link:hover {
+  color: #007bff;
+  transform: translateY(-2px);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a.add-blog-btn:hover {
+  background: #0056c7;
+  transform: translateY(-2px);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Make menu wrap if it overflows (responsive) */
+@media (max-width: 1024px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+}

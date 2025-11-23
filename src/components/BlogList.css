@@ -1,0 +1,22 @@
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 40px;
+}
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+}
+
+/* Mobile (<=600px) */
+@media (max-width: 600px) {
+  .blog-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
