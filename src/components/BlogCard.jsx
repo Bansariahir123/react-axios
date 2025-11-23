@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Blogcard.css"
+import "./BlogCard.css"
 export default function BlogCard({ blog }) {
   const preview = blog.description.slice(0, 120) + "...";
 
